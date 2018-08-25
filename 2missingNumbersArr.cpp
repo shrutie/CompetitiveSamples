@@ -1,6 +1,10 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
+//Aug 26, 2018
+/* arr1: boolean array which is initialised as false for all the values from 1 to n, while taking inputs.
+* Second loop: Traverse till n and print the values for which arr1 as false value.
+*/
 int main(){
 	int n;
 	cin>>n;
