@@ -23,7 +23,7 @@ public class StringRot {
 			
 		}
 		for(char c: ch) System.out.print(c);
-		System.out.println((int)'a');
+		//System.out.println((int)'a');
 		//Given a string S, and two numbers N, M - arrange the characters of string in between the 
 		//indexes N and M (both inclusive) in descending order. (Indexing starts from 0).
 /*		System.out.print("Enter N and M indexes to sort string in between");
@@ -36,4 +36,6 @@ public class StringRot {
 			if(ch1[N]< )
 		}
 	}
+}*/
+}
 }

@@ -1,8 +1,6 @@
 package p1;
 
 import java.util.Scanner;
-
-import javax.swing.text.html.MinimalHTMLWriter;
 public class TrappingRainWater {
 
 	public static void main(String[] args) {
@@ -35,7 +33,7 @@ public class TrappingRainWater {
 			//System.out.println("Value in left array at :" + i+ ": "+leftArr[i]);
 		}
 		
-		//calculate right array: Stores the value of the max bar to teh right than i-th
+		//calculate right array: Stores the value of the max bar to the right than i-th
 		int[] rightArr= new int[n];
 		rightArr[n-1]= arr[n-1];
 		for(int i=n-2;i>=0;i--){
@@ -43,7 +41,7 @@ public class TrappingRainWater {
 			//System.out.println("Value in right array at :" + i+": "+ rightArr[i]);
 		}
 		
-		//calculate water. min of left/right subtracted from the current height will be equals to teh amount that can be stored.
+		//calculate water. min of left/right subtracted from the current height will be equals to the amount that can be stored.
 		for(int i=0;i<n;i++){
 			
 			//System.out.println("Water added calculation: " + (java.lang.Math.min(leftArr[i], rightArr[i])- arr[i]));
